@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Rock+Salt');
+
+html, body, section {
+    height: 100%;
+}
+
+body {
+    background: #191019;
+	color: #fff;
+    text-align: center;
+}
+img {
+	width:auto;
+	max-width:30%;
+	height:auto;
+}
+.xop-container {
+    display: flex;
+}
+
+div {
+	width:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.xop-left {
+    background: linear-gradient(rgba(0,0,0,0.85), rgba(255,255,255,0.10)),
+        url('https://cdn.discordapp.com/attachments/709988191108726837/713633938563792926/gif6.gif');
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    padding: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+.xop-right {
+    background: linear-gradient(rgba(0,0,0,0.85), rgba(164,222,102, 0.10)),
+        url('https://cdn.discordapp.com/attachments/709988191108726837/713634125688340500/gif7.gif');
+        background-size: cover;
+        background-position: center;
+    flex: 1;
+    padding: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+.xop-left:hover, .xop-right:hover {
+    transform: scale(0.95);
+}
+
+.xop-left h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 6rem;
+}
+
+.xop-right h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 6rem;
+}
+
+.xop-button {
+    border-radius: 30px;
+    color: #fff;
+    background-color: #fcad26;
+    padding: 1.5%;
+    margin: 0 2%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 150px;
+}
+
+.xop-button:hover {
+    background: #fcc567;
+    color: #fff;
+}
+
+.a-left {
+  position: relative;
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 10px;
+  color: #de00ff;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 30px;
+  background: #000;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0px 0px 8px rgba(222, 0, 255, 0.7);
+  opacity:0.6;
+  transition: transform .4s ease;
+
+}
+.a-left:hover {
+        transform:scale(1.1);
+}
+
+.a-right {
+  position: relative;
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 10px;
+  color:  #F08080;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 30px;
+  background: #000;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0px 0px 8px rgba(240, 128, 128, 0.7);
+  opacity:0.6;
+  transition: transform .4s ease;
+
+}
+
+.a-right:hover {
+        transform:scale(1.1);
+}
+
+
+
+.logo{
+        transition: transform .4s ease;
+        cursor: pointer;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+
+
+
