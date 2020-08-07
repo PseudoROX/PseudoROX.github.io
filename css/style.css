@@ -1,0 +1,35 @@
+body {
+	font-family:            Georgia, Helvetica, sans-serif;
+	font-size:                      16pt;
+	background:                     white;
+	color:                          black;
+}
+
+
+.buttons {
+	text-align: center;
+	color:#99cccc;
+	font-size:13px;
+	border: 1px solid #99cccc;
+	background: none;
+	outline:none;
+	width:110px;
+	font-family: 'Abel', sans-serif;
+	text-transform: uppercase;
+}
+
+.buttons:hover {
+	color: #000;
+	cursor:pointer;
+	background:#fff;
+	transition:0.5s;
+}
+ 
+.footer{
+       text-align: center;
+       font-size: 12px;
+       position: fixed;
+       text-align: center;
+       bottom: 0px;
+       width: 100%;
+   } 
