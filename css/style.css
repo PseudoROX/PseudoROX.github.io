@@ -24,6 +24,25 @@ body {
 	background:#fff;
 	transition:0.5s;
 }
+
+.buttons2 {
+	text-align: center;
+	color:#99cccc;
+	font-size:13px;
+	border: 1px solid #99cccc;
+	background: none;
+	outline:none;
+	width:80px;
+	font-family: 'Abel', sans-serif;
+	text-transform: uppercase;
+}
+
+.buttons2:hover {
+	color: #000;
+	cursor:pointer;
+	background:#fff;
+	transition:0.5s;
+}
  
 .footer{
        text-align: center;
