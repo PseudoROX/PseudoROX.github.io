@@ -35,7 +35,8 @@ body {
 	width:80px;
 	font-family: 'Abel', sans-serif;
 	text-transform: uppercase;
-
+	margin-right: 1px;
+	transition: 0.5s;
 
 }
 
