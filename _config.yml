@@ -1,4 +1,4 @@
 name: PseudoROX
 title: null
 description: cybersecurity cheatsheets and more.
-theme: false
+theme: jekyll-theme-minimal
